@@ -10,7 +10,7 @@ const Banner = () => (
       title="Unlock the full potential of our quiz creation platform."
       subtitle="Get creating!"
       button={
-        <Link href="https://creativedesignsguru.com/category/nextjs/">
+        <Link href="/signup">
           <a>
             <TButton>Get Started</TButton>
           </a>
