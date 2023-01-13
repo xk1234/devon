@@ -5,9 +5,11 @@ import { Footer } from './Footer';
 import { Hero } from './Hero';
 import { VerticalFeatures } from './VerticalFeatures';
 import { Navbar } from '../navigation/Navbar';
+import Head from 'next/head'
+
 const Base = () => (
   <div className="antialiased text-gray-600">
-    <Meta title={AppConfig.title} description={AppConfig.description} />
+    <Meta title={"QuizNotes"} description={AppConfig.description} />
     <Navbar/>
     <Hero />
     <VerticalFeatures />
