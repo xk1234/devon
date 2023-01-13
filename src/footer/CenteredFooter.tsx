@@ -3,7 +3,6 @@ import { ReactNode } from 'react';
 
 type ICenteredFooterProps = {
   logo: ReactNode;
-  iconList: ReactNode;
   children: ReactNode;
 };
 

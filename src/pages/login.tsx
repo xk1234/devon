@@ -41,7 +41,7 @@ export default function SignIn() {
 
   return (
     <ThemeProvider theme={theme}>
-      <Navbar />
+      <Navbar/>
       <Container component="main" maxWidth="xs">
         <CssBaseline />
         <Box

@@ -4,12 +4,7 @@ import { Section } from '../layout/Section';
 import { Logo } from '../templates/Logo';
 import Link from 'next/link';
 
-type INavbarProps = {
-  logo: ReactNode;
-  children: ReactNode;
-};
-
-const Navbar = (props: INavbarProps) => (
+const Navbar = () => (
   <Section yPadding="py-6">
       <NavbarTwoColumns logo={<Logo xl />}>
         <li>
